@@ -1,0 +1,31 @@
+.login {
+  flex: 4;
+  height: 90vh;
+  width: 90vw;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding: 0;
+  margin: 0;
+}
+
+.LoginFrom {
+  display: flex;
+  flex-direction: column;
+}
+.loginInput {
+  margin-bottom: 10px;
+  padding: 10px 20px;
+  border-radius: 5px;
+  font-size: 16px;
+  width: 300px;
+}
+.loginButton {
+  background-color: teal;
+  color: white;
+  border: none;
+  padding: 10px;
+  cursor: pointer;
+  border-radius: 5px;
+  font-size: 16px;
+}
